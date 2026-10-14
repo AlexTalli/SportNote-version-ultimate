@@ -1,21 +1,21 @@
 {
   "expo": {
-    "name": "GolNote",
-    "slug": "golnote",
+    "name": "SportNote",
+    "slug": "sportnote",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/images/SportNoteLogo.png",
-    "scheme": "golnote",
+    "scheme": "sportnote",
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.alessandro.golnote",
+      "bundleIdentifier": "com.alessandro.sportnote",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "com.alessandro.golnote"
+      "package": "com.alessandro.sportnote"
     },
     "web": {
       "bundler": "metro",

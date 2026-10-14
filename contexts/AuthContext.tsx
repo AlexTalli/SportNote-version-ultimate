@@ -30,7 +30,7 @@ const buildAuthEmail = (nickname: string) => {
     .map((char) => char.charCodeAt(0).toString(16).padStart(4, '0'))
     .join('');
 
-  return `user-${encodedNickname}@golnote.app`;
+  return `user-${encodedNickname}@sportnote.app`;
 };
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
